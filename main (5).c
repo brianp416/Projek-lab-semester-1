@@ -4,7 +4,7 @@
 struct User{
     char username[20];
     char password[20]; 
-}
+};
 
 void MenuAwal(){ 
     printf("===============================\n");
@@ -15,7 +15,7 @@ void MenuAwal(){
     printf("[3] Exit\n"); 
 }
 
-Void MenuUtama(){
+void MenuUtama(){
     printf("===============================\n");
     printf("S H I P P E X  L O G I S T I C \n");
     printf("===============================\n\n");
@@ -26,15 +26,17 @@ Void MenuUtama(){
     printf("Exit\n"); 
 }
 
-Void Out(){
+void Out(){
     printf("==========================\n"); 
     printf("    Thank You For Using \n");
     
-    printf("      See You Later\n";)
+    printf("      See You Later\n");
     
     printf("  Press Any Key To Exit\n");
     printf("==========================\n"); 
 }
+
+
 
 int main() {
     
